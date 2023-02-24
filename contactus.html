@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="realsetate.html">Home</a></li>
+            <li><a href="property.html">Listings</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+      
+      <main>
+        <div class="contact-section">
+          <h2>Contact Us</h2>
+          <p>Have a question or want to schedule a viewing? Fill out the form below and we'll get back to you as soon as possible.</p>
+          
+          <form method="post" action="submit-form.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+      </main>
+      
+      <footer>
+        <p>&copy; RAj real state</p>
+      </footer>
+    </div>
+  </body>
+</html>
